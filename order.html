@@ -1,35 +1,60 @@
-Order a Melongram
+<!doctype html>
+<html>
 
-There's no better way to show a loved one you care than with a Melongram.
+    <head>
+        <title><h1>Order page</h1></title>
+    </head>
+    
+    <h2>Order a Melongram</h2>
+        <p>There's no better way to show a loved one you care than with a Melongram.</p>
 
-Each Melongram comes with a custom message printed on high-quality cardstock
-and your choice of a hand-picked, premium melon.
+        <p>Each Melongram comes with a custom message printed on high-quality cardstock
+        and your choice of a hand-picked, premium melon.</p>
+    
+    <h2>Melon Options</h2>
+    
+    <p>Choose from one of these melons:</p>
+        <table>
+        <tr>Watermelon $1,200.00</tr><br>
+        <tr>Canteloupe $400.00</tr><br>
+        <tr>Honeydew $1,750,00.00</tr><br>
+        </table>
+    
+    <h2>Order Form</h2>
+    
+    <form>
+        <label>Your name</label>
+        <input type = "text" name= "name"><br>
+        <label>Who are we sending this to?</label>
+        <input type="text" name="recipient"><br>
+        <label>Choose a melon</label>
+        <select name = "melons">
+            <option value= "watermelon">Watermelon</option>
+            <option value= "Canteloupe">Canteloupe</option>
+            <option value= "Honeydew">Honeydew</option>
+        </select><br>
+        <label>Where should we deliver?</label>
+        <input type = "radio" name="time" value="Morning">
+        <label>Morning</label>
+        <input type = "radio" name="time" value="Evening">
+        <label>Evening</label>
+        <input type = "radio" name="time" value="Any time">
+        <label>Any time</label><br>
 
-Melon Options
+        <form>
+            <label>Enter your message:</label><br>
+            <textarea name= "message"></textarea>
+        </form><br>
 
-Choose from one of these melons:
+        <form>
+            <label>Subscribe to our newsletter</label>
+            <input type = "radio" name="newsletter" value="Yes">
+        </form><br>
 
-Watermelon $1,200.00
-Canteloupe $400.00
-Honeydew $1,750,00.00
+        <form>
+            <button type="submit">Submit Query</button>
+        </form>
+    
 
-Order Form
-
-Your name
-
-Who are we sending this to?
-
-Choose a melon
-Watermleon
-Canteloupe
-Honeydew
-
-When should we deliver?
-Morning
-Evening
-Any time
-
-Enter your message:
-
-Subscribe to our newsletter
-Yes
+    
+    
